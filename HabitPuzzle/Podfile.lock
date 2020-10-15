@@ -1,0 +1,28 @@
+PODS:
+  - PuzzleMaker (1.2.1)
+  - SnapKit (4.2.0)
+  - SwiftLint (0.40.3)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - PuzzleMaker
+  - SnapKit
+  - SwiftLint
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - PuzzleMaker
+    - SnapKit
+    - SwiftLint
+    - Then
+
+SPEC CHECKSUMS:
+  PuzzleMaker: dd3c705e91d7b4b2a2e74ce2a71e01860930f86c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 4dc53a0187e95950223f9868d63408e8e96b8c68
+
+COCOAPODS: 1.9.3
