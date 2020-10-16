@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  HabitPuzzle
+//  Hazzle
 //
 //  Created by 이지원 on 2020/10/16.
 //

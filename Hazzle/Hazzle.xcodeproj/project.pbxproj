@@ -3,131 +3,132 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87EAEDEF2538A384002595C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAEDEE2538A384002595C1 /* AppDelegate.swift */; };
-		87EAEDF12538A384002595C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAEDF02538A384002595C1 /* SceneDelegate.swift */; };
-		87EAEDF32538A384002595C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAEDF22538A384002595C1 /* ViewController.swift */; };
-		87EAEDF62538A384002595C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EAEDF42538A384002595C1 /* Main.storyboard */; };
-		87EAEDF82538A386002595C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EAEDF72538A386002595C1 /* Assets.xcassets */; };
-		87EAEDFB2538A386002595C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EAEDF92538A386002595C1 /* LaunchScreen.storyboard */; };
-		F7220F8B4DE0A73B2B1C8CC4 /* Pods_HabitPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085C149E50DDE5045C943164 /* Pods_HabitPuzzle.framework */; };
+		690132503D971188C3C4DBB9 /* Pods_Hazzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AAFFFDE1E692191246C896 /* Pods_Hazzle.framework */; };
+		87E277712539B34300D0F2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277702539B34300D0F2B2 /* AppDelegate.swift */; };
+		87E277732539B34300D0F2B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277722539B34300D0F2B2 /* SceneDelegate.swift */; };
+		87E277752539B34300D0F2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277742539B34300D0F2B2 /* ViewController.swift */; };
+		87E277782539B34300D0F2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E277762539B34300D0F2B2 /* Main.storyboard */; };
+		87E2777A2539B34400D0F2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E277792539B34400D0F2B2 /* Assets.xcassets */; };
+		87E2777D2539B34400D0F2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E2777B2539B34400D0F2B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		085C149E50DDE5045C943164 /* Pods_HabitPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ADD373994115DA4CA6D2E9C /* Pods-HabitPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitPuzzle.debug.xcconfig"; path = "Target Support Files/Pods-HabitPuzzle/Pods-HabitPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
-		87EAEDEB2538A384002595C1 /* HabitPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87EAEDEE2538A384002595C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87EAEDF02538A384002595C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		87EAEDF22538A384002595C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87EAEDF52538A384002595C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87EAEDF72538A386002595C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87EAEDFA2538A386002595C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		87EAEDFC2538A386002595C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA26594C6721A128BCFBFA8C /* Pods-HabitPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitPuzzle.release.xcconfig"; path = "Target Support Files/Pods-HabitPuzzle/Pods-HabitPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		87E2776D2539B34300D0F2B2 /* Hazzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hazzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E277702539B34300D0F2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87E277722539B34300D0F2B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87E277742539B34300D0F2B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87E277772539B34300D0F2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87E277792539B34400D0F2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87E2777C2539B34400D0F2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87E2777E2539B34400D0F2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AAFFFDE1E692191246C896 /* Pods_Hazzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hazzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C659248EDDC20050AE66EA1C /* Pods-Hazzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hazzle.debug.xcconfig"; path = "Target Support Files/Pods-Hazzle/Pods-Hazzle.debug.xcconfig"; sourceTree = "<group>"; };
+		E8AEF4D7BB9C954273BE2F55 /* Pods-Hazzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hazzle.release.xcconfig"; path = "Target Support Files/Pods-Hazzle/Pods-Hazzle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		87EAEDE82538A384002595C1 /* Frameworks */ = {
+		87E2776A2539B34300D0F2B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7220F8B4DE0A73B2B1C8CC4 /* Pods_HabitPuzzle.framework in Frameworks */,
+				690132503D971188C3C4DBB9 /* Pods_Hazzle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		274AC0B3DA1A79655D26D34F /* Pods */ = {
+		67B9133EB8D85581AD309F30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0ADD373994115DA4CA6D2E9C /* Pods-HabitPuzzle.debug.xcconfig */,
-				DA26594C6721A128BCFBFA8C /* Pods-HabitPuzzle.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		77576650600D9C019D08E535 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				085C149E50DDE5045C943164 /* Pods_HabitPuzzle.framework */,
+				93AAFFFDE1E692191246C896 /* Pods_Hazzle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		87EAEDE22538A384002595C1 = {
+		87E277642539B34300D0F2B2 = {
 			isa = PBXGroup;
 			children = (
-				87EAEDED2538A384002595C1 /* HabitPuzzle */,
-				87EAEDEC2538A384002595C1 /* Products */,
-				274AC0B3DA1A79655D26D34F /* Pods */,
-				77576650600D9C019D08E535 /* Frameworks */,
+				87E2776F2539B34300D0F2B2 /* Hazzle */,
+				87E2776E2539B34300D0F2B2 /* Products */,
+				C994B74596181266C852429A /* Pods */,
+				67B9133EB8D85581AD309F30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		87EAEDEC2538A384002595C1 /* Products */ = {
+		87E2776E2539B34300D0F2B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87EAEDEB2538A384002595C1 /* HabitPuzzle.app */,
+				87E2776D2539B34300D0F2B2 /* Hazzle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87EAEDED2538A384002595C1 /* HabitPuzzle */ = {
+		87E2776F2539B34300D0F2B2 /* Hazzle */ = {
 			isa = PBXGroup;
 			children = (
-				87EAEDEE2538A384002595C1 /* AppDelegate.swift */,
-				87EAEDF02538A384002595C1 /* SceneDelegate.swift */,
-				87EAEDF22538A384002595C1 /* ViewController.swift */,
-				87EAEDF42538A384002595C1 /* Main.storyboard */,
-				87EAEDF72538A386002595C1 /* Assets.xcassets */,
-				87EAEDF92538A386002595C1 /* LaunchScreen.storyboard */,
-				87EAEDFC2538A386002595C1 /* Info.plist */,
+				87E277702539B34300D0F2B2 /* AppDelegate.swift */,
+				87E277722539B34300D0F2B2 /* SceneDelegate.swift */,
+				87E277742539B34300D0F2B2 /* ViewController.swift */,
+				87E277762539B34300D0F2B2 /* Main.storyboard */,
+				87E277792539B34400D0F2B2 /* Assets.xcassets */,
+				87E2777B2539B34400D0F2B2 /* LaunchScreen.storyboard */,
+				87E2777E2539B34400D0F2B2 /* Info.plist */,
 			);
-			path = HabitPuzzle;
+			path = Hazzle;
+			sourceTree = "<group>";
+		};
+		C994B74596181266C852429A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C659248EDDC20050AE66EA1C /* Pods-Hazzle.debug.xcconfig */,
+				E8AEF4D7BB9C954273BE2F55 /* Pods-Hazzle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87EAEDEA2538A384002595C1 /* HabitPuzzle */ = {
+		87E2776C2539B34300D0F2B2 /* Hazzle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87EAEDFF2538A386002595C1 /* Build configuration list for PBXNativeTarget "HabitPuzzle" */;
+			buildConfigurationList = 87E277812539B34400D0F2B2 /* Build configuration list for PBXNativeTarget "Hazzle" */;
 			buildPhases = (
-				8F6F07A69FD3796AEC942AC8 /* [CP] Check Pods Manifest.lock */,
-				87EAEDE72538A384002595C1 /* Sources */,
-				87EAEDE82538A384002595C1 /* Frameworks */,
-				87EAEDE92538A384002595C1 /* Resources */,
-				31D2C71488A87539D754F0E1 /* [CP] Embed Pods Frameworks */,
+				6B2AE4696FDF49DAFC900537 /* [CP] Check Pods Manifest.lock */,
+				87E277692539B34300D0F2B2 /* Sources */,
+				87E2776A2539B34300D0F2B2 /* Frameworks */,
+				87E2776B2539B34300D0F2B2 /* Resources */,
+				357133E2CACFBC6974EA91C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HabitPuzzle;
-			productName = HabitPuzzle;
-			productReference = 87EAEDEB2538A384002595C1 /* HabitPuzzle.app */;
+			name = Hazzle;
+			productName = Hazzle;
+			productReference = 87E2776D2539B34300D0F2B2 /* Hazzle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		87EAEDE32538A384002595C1 /* Project object */ = {
+		87E277652539B34300D0F2B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					87EAEDEA2538A384002595C1 = {
+					87E2776C2539B34300D0F2B2 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 87EAEDE62538A384002595C1 /* Build configuration list for PBXProject "HabitPuzzle" */;
+			buildConfigurationList = 87E277682539B34300D0F2B2 /* Build configuration list for PBXProject "Hazzle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,48 +136,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 87EAEDE22538A384002595C1;
-			productRefGroup = 87EAEDEC2538A384002595C1 /* Products */;
+			mainGroup = 87E277642539B34300D0F2B2;
+			productRefGroup = 87E2776E2539B34300D0F2B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87EAEDEA2538A384002595C1 /* HabitPuzzle */,
+				87E2776C2539B34300D0F2B2 /* Hazzle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		87EAEDE92538A384002595C1 /* Resources */ = {
+		87E2776B2539B34300D0F2B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87EAEDFB2538A386002595C1 /* LaunchScreen.storyboard in Resources */,
-				87EAEDF82538A386002595C1 /* Assets.xcassets in Resources */,
-				87EAEDF62538A384002595C1 /* Main.storyboard in Resources */,
+				87E2777D2539B34400D0F2B2 /* LaunchScreen.storyboard in Resources */,
+				87E2777A2539B34400D0F2B2 /* Assets.xcassets in Resources */,
+				87E277782539B34300D0F2B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31D2C71488A87539D754F0E1 /* [CP] Embed Pods Frameworks */ = {
+		357133E2CACFBC6974EA91C5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HabitPuzzle/Pods-HabitPuzzle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hazzle/Pods-Hazzle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HabitPuzzle/Pods-HabitPuzzle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hazzle/Pods-Hazzle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitPuzzle/Pods-HabitPuzzle-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hazzle/Pods-Hazzle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8F6F07A69FD3796AEC942AC8 /* [CP] Check Pods Manifest.lock */ = {
+		6B2AE4696FDF49DAFC900537 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,7 +192,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HabitPuzzle-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hazzle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -201,31 +202,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87EAEDE72538A384002595C1 /* Sources */ = {
+		87E277692539B34300D0F2B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87EAEDF32538A384002595C1 /* ViewController.swift in Sources */,
-				87EAEDEF2538A384002595C1 /* AppDelegate.swift in Sources */,
-				87EAEDF12538A384002595C1 /* SceneDelegate.swift in Sources */,
+				87E277752539B34300D0F2B2 /* ViewController.swift in Sources */,
+				87E277712539B34300D0F2B2 /* AppDelegate.swift in Sources */,
+				87E277732539B34300D0F2B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		87EAEDF42538A384002595C1 /* Main.storyboard */ = {
+		87E277762539B34300D0F2B2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				87EAEDF52538A384002595C1 /* Base */,
+				87E277772539B34300D0F2B2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		87EAEDF92538A386002595C1 /* LaunchScreen.storyboard */ = {
+		87E2777B2539B34400D0F2B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				87EAEDFA2538A386002595C1 /* Base */,
+				87E2777C2539B34400D0F2B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -233,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		87EAEDFD2538A386002595C1 /* Debug */ = {
+		87E2777F2539B34400D0F2B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -294,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		87EAEDFE2538A386002595C1 /* Release */ = {
+		87E277802539B34400D0F2B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -349,38 +350,38 @@
 			};
 			name = Release;
 		};
-		87EAEE002538A386002595C1 /* Debug */ = {
+		87E277822539B34400D0F2B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ADD373994115DA4CA6D2E9C /* Pods-HabitPuzzle.debug.xcconfig */;
+			baseConfigurationReference = C659248EDDC20050AE66EA1C /* Pods-Hazzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HabitPuzzle/Info.plist;
+				INFOPLIST_FILE = Hazzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.jiwon.HabitPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jiwon.Hazzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		87EAEE012538A386002595C1 /* Release */ = {
+		87E277832539B34400D0F2B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA26594C6721A128BCFBFA8C /* Pods-HabitPuzzle.release.xcconfig */;
+			baseConfigurationReference = E8AEF4D7BB9C954273BE2F55 /* Pods-Hazzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HabitPuzzle/Info.plist;
+				INFOPLIST_FILE = Hazzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.jiwon.HabitPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jiwon.Hazzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,25 +391,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87EAEDE62538A384002595C1 /* Build configuration list for PBXProject "HabitPuzzle" */ = {
+		87E277682539B34300D0F2B2 /* Build configuration list for PBXProject "Hazzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87EAEDFD2538A386002595C1 /* Debug */,
-				87EAEDFE2538A386002595C1 /* Release */,
+				87E2777F2539B34400D0F2B2 /* Debug */,
+				87E277802539B34400D0F2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87EAEDFF2538A386002595C1 /* Build configuration list for PBXNativeTarget "HabitPuzzle" */ = {
+		87E277812539B34400D0F2B2 /* Build configuration list for PBXNativeTarget "Hazzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87EAEE002538A386002595C1 /* Debug */,
-				87EAEE012538A386002595C1 /* Release */,
+				87E277822539B34400D0F2B2 /* Debug */,
+				87E277832539B34400D0F2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 87EAEDE32538A384002595C1 /* Project object */;
+	rootObject = 87E277652539B34300D0F2B2 /* Project object */;
 }
