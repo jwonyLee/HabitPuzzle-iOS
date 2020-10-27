@@ -18,9 +18,9 @@ import RealmSwift
  - `minute`: 분
  */
 class Alarm: Object {
-    @objc dynamic var identifier = UUID().uuidString
+    @objc dynamic var identifier: String = UUID().uuidString
     @objc dynamic var target: Habit?
-    @objc dynamic var daysOfWeek = 0
-    @objc dynamic var hour = 0
-    @objc dynamic var minute = 0
+    @objc dynamic var daysOfWeek: Int = 0
+    @objc dynamic var hour: Int = 0
+    @objc dynamic var minute: Int = 0
 }
