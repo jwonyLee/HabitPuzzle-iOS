@@ -21,6 +21,7 @@
 		874DE0B02542D2B90046B6E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE0AF2542D2B90046B6E0 /* HomeViewController.swift */; };
 		874DE0B42542D2EA0046B6E0 /* HabitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE0B32542D2EA0046B6E0 /* HabitDetailViewController.swift */; };
 		874DE0B82542D3100046B6E0 /* HabitCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DE0B72542D3100046B6E0 /* HabitCreateViewController.swift */; };
+		87B591BB2547B9CD00286278 /* GoalImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B591BA2547B9CD00286278 /* GoalImageTableViewCell.swift */; };
 		87E277712539B34300D0F2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277702539B34300D0F2B2 /* AppDelegate.swift */; };
 		87E277732539B34300D0F2B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277722539B34300D0F2B2 /* SceneDelegate.swift */; };
 		87E277752539B34300D0F2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E277742539B34300D0F2B2 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		874DE0AF2542D2B90046B6E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		874DE0B32542D2EA0046B6E0 /* HabitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailViewController.swift; sourceTree = "<group>"; };
 		874DE0B72542D3100046B6E0 /* HabitCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCreateViewController.swift; sourceTree = "<group>"; };
+		87B591BA2547B9CD00286278 /* GoalImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalImageTableViewCell.swift; sourceTree = "<group>"; };
 		87E2776D2539B34300D0F2B2 /* Hazzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hazzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E277702539B34300D0F2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87E277722539B34300D0F2B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				874DE0A62542D1600046B6E0 /* HabitCreate.storyboard */,
 				874DE0B72542D3100046B6E0 /* HabitCreateViewController.swift */,
+				87B591BA2547B9CD00286278 /* GoalImageTableViewCell.swift */,
 			);
 			path = HabitCreate;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				874DE0B82542D3100046B6E0 /* HabitCreateViewController.swift in Sources */,
 				874DE0B02542D2B90046B6E0 /* HomeViewController.swift in Sources */,
 				874DE0B42542D2EA0046B6E0 /* HabitDetailViewController.swift in Sources */,
+				87B591BB2547B9CD00286278 /* GoalImageTableViewCell.swift in Sources */,
 				872C15FB253EB905007EC5A3 /* Memo.swift in Sources */,
 				872C15FE253EB98B007EC5A3 /* Alarm.swift in Sources */,
 				874DE0AA2542D23A0046B6E0 /* StatisticsViewController.swift in Sources */,
