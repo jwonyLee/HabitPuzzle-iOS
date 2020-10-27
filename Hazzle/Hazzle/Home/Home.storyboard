@@ -21,6 +21,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="습관" image="house" catalog="system" id="6ns-X7-aSA"/>
                     <navigationItem key="navigationItem" title="습관" id="GG5-kR-sD4">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="rU0-O6-VTH">
+                            <connections>
+                                <segue destination="wpp-wM-WY7" kind="show" id="hdd-o1-GRk"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9uI-IE-mDJ">
                             <connections>
                                 <segue destination="xAf-rW-boa" kind="show" id="Vop-6N-p6m"/>
@@ -62,6 +67,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vK3-Qo-XX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="342.02898550724638" y="167.41071428571428"/>
+        </scene>
+        <!--HabitDetail-->
+        <scene sceneID="N0a-HU-XdL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HabitDetail" referencedIdentifier="HabitDetail" id="wpp-wM-WY7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7VC-dw-d3C"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73d-YK-SMJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2007" y="35"/>
         </scene>
     </scenes>
     <resources>

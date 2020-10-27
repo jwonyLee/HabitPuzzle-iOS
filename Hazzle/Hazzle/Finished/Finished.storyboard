@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--완성-->
+        <!--완성 갤러리-->
         <scene sceneID="4be-6y-OP1">
             <objects>
                 <viewController storyboardIdentifier="Finished" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RHx-wd-AQO" customClass="FinishedViewController" customModule="Hazzle" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,11 +19,30 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="완성" image="flag.fill" catalog="system" id="hqR-O7-smG"/>
+                    <navigationItem key="navigationItem" title="완성 갤러리" id="b4h-Xg-bju"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RnO-Ni-ddK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="357" y="173"/>
+            <point key="canvasLocation" x="1266.6666666666667" y="172.76785714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ybb-mo-cG9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7IS-7r-jeH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FcO-zB-RC6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RHx-wd-AQO" kind="relationship" relationship="rootViewController" id="3h1-Ph-a0g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Unc-Gu-zgR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356.52173913043481" y="172.76785714285714"/>
         </scene>
     </scenes>
     <resources>
