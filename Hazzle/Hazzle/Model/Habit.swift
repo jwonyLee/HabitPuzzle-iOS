@@ -21,12 +21,12 @@ import RealmSwift
  - `count`: 완료 횟수
  */
 class Habit: Object {
-    @objc dynamic var identifier = UUID().uuidString
-    @objc dynamic var name = ""
-    @objc dynamic var date = Date()
-    @objc dynamic var photo: Data? = nil
-    @objc dynamic var goal = 0
-    @objc dynamic var numberOfDays = 0
-    @objc dynamic var grid = [[]]
-    @objc dynamic var count = 0
+    @objc dynamic var identifier: String = UUID().uuidString
+    @objc dynamic var name: String = ""
+    @objc dynamic var date: Date = Date()
+    @objc dynamic var photo: String = ""
+    @objc dynamic var goal: Int = 0
+    @objc dynamic var numberOfDays: Int = 0
+    var grid: List<Bool> = List<Bool>()
+    @objc dynamic var count: Int = 0
 }

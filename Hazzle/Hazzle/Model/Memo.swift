@@ -17,7 +17,7 @@ import RealmSwift
  */
 
 class Memo: Object {
-    @objc dynamic var identifier = UUID().uuidString
-    @objc dynamic var date = Date()
-    @objc dynamic var content = ""
+    @objc dynamic var identifier: String = UUID().uuidString
+    @objc dynamic var date: Date = Date()
+    @objc dynamic var content: String = ""
 }
