@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Photos
 
 class HabitCreateViewController: UIViewController {
 
@@ -46,8 +47,9 @@ class HabitCreateViewController: UIViewController {
 
     let puzzleImageView = UIImageView().then {
         $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.backgroundColor = .brown
-        $0.layer.cornerRadius = 16
+        $0.backgroundColor = .white
+        $0.image = UIImage(named: "acorn")
+        $0.contentMode = .scaleToFill
     }
 
     let puzzleAddButton = UIButton().then {
@@ -131,11 +133,21 @@ class HabitCreateViewController: UIViewController {
         $0.keyboardType = .numberPad
     }
 
+    let picker = UIImagePickerController()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        picker.delegate = self
+
         // set navigation controller bar item
         setRightBarButton()
+
+        // Set Action to Add Photo Button
+        puzzleAddButton.addTarget(self, action: #selector(photoAction), for: .touchUpInside)
+        puzzleImageView.isUserInteractionEnabled = true
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(photoAction))
+        puzzleImageView.addGestureRecognizer(tapGesture)
 
         self.view.addSubview(scrollView)
         scrollView.addSubview(containerView)
@@ -173,5 +185,44 @@ class HabitCreateViewController: UIViewController {
             $0.width.equalToSuperview().multipliedBy(0.5)
             $0.width.equalTo(self.puzzleImageView.snp.height).multipliedBy(1.0 / 1.0)
         }
+    }
+
+    @objc private func photoAction() {
+        let alert =  UIAlertController(title: "사진 가져오기", message: "어디에서 사진을 가져올까요?", preferredStyle: .actionSheet)
+        let library =  UIAlertAction(title: "앨범", style: .default) { _ in self.openLibrary() }
+        let camera =  UIAlertAction(title: "카메라", style: .default) { _ in self.openCamera() }
+        let cancel = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+
+        alert.addAction(library)
+        alert.addAction(camera)
+        alert.addAction(cancel)
+
+        present(alert, animated: true, completion: nil)
+    }
+
+    private func openLibrary() {
+        picker.sourceType = .photoLibrary
+        present(picker, animated: true, completion: nil)
+    }
+
+    private func openCamera() {
+        if UIImagePickerController .isSourceTypeAvailable(.camera) {
+            picker.sourceType = .camera
+            present(picker, animated: false, completion: nil)
+        } else {
+            print("Camera not available")
+        }
+    }
+}
+
+extension HabitCreateViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            puzzleImageView.image = image
+            print(info)
+        }
+
+        dismiss(animated: true, completion: nil)
     }
 }
