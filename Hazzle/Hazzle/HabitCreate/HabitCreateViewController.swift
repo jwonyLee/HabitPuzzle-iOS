@@ -133,11 +133,25 @@ class HabitCreateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // set navigation controller bar item
+        setRightBarButton()
+        
         self.view.addSubview(scrollView)
         scrollView.addSubview(containerView)
         containerView.addSubview(stackView)
         addSubviews()
         setConstraint()
+    }
+    
+    private func setRightBarButton() {
+        let doneBarButton = UIBarButtonItem(barButtonSystemItem: .done,
+                                            target: self,
+                                            action: #selector(saveHabit))
+        self.navigationItem.rightBarButtonItem = doneBarButton
+    }
+    
+    @objc private func saveHabit() {
+        self.navigationController?.popViewController(animated: true)
     }
     
     private func addSubviews() {
@@ -160,7 +174,7 @@ class HabitCreateViewController: UIViewController {
         }
                 
         habitTextField.snp.makeConstraints {
-            $0.trailing.equalToSuperview().offset(-8)
+            $0.trailing.equalTo(habitInputStack.snp.trailingMargin).offset(-8)
         }
     }
 }
