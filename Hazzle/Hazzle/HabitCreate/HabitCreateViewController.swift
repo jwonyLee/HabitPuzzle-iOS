@@ -78,6 +78,7 @@ class HabitCreateViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.adjustsFontForContentSizeCategory = true
         $0.placeholder = "습관을 적어주세요."
+        $0.returnKeyType = .done
     }
     
     lazy var goalInputView = UIStackView(arrangedSubviews: [goalLabel, goalTextField]).then {
