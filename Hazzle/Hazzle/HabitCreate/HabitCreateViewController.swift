@@ -60,7 +60,7 @@ class HabitCreateViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.axis = .vertical
         $0.spacing = 8
-        $0.alignment = .leading
+        $0.alignment = .fill
         $0.distribution = .fill
         $0.backgroundColor = .white
         $0.layer.cornerRadius = 16
@@ -85,7 +85,7 @@ class HabitCreateViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.axis = .vertical
         $0.spacing = 8
-        $0.alignment = .leading
+        $0.alignment = .fill
         $0.distribution = .fill
         $0.backgroundColor = .white
         $0.layer.cornerRadius = 16
@@ -110,7 +110,7 @@ class HabitCreateViewController: UIViewController {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.axis = .vertical
         $0.spacing = 8
-        $0.alignment = .leading
+        $0.alignment = .fill
         $0.distribution = .fill
         $0.backgroundColor = .white
         $0.layer.cornerRadius = 16
@@ -172,18 +172,6 @@ class HabitCreateViewController: UIViewController {
         puzzleImageView.snp.makeConstraints {
             $0.width.equalToSuperview().multipliedBy(0.5)
             $0.width.equalTo(self.puzzleImageView.snp.height).multipliedBy(1.0 / 1.0)
-        }
-                
-        habitTextField.snp.makeConstraints {
-            $0.trailing.equalTo(habitInputStack.snp.trailingMargin).offset(-8)
-        }
-        
-        goalTextField.snp.makeConstraints {
-            $0.trailing.equalTo(goalInputView.snp.trailingMargin).offset(-8)
-        }
-        
-        numberOfDaysTextField.snp.makeConstraints {
-            $0.trailing.equalTo(numberOfDaysInputView.snp.trailingMargin).offset(-8)
         }
     }
 }
