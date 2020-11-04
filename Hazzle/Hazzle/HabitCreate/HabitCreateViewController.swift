@@ -7,6 +7,7 @@
 
 import UIKit
 import Photos
+import RealmSwift
 
 class HabitCreateViewController: UIViewController {
 
@@ -164,6 +165,34 @@ class HabitCreateViewController: UIViewController {
     }
 
     @objc private func saveHabit() {
+        // get Data from TextField
+        let habit = Habit()
+
+        guard let name = habitTextField.text else {
+            return
+        }
+
+        guard let goal = goalTextField.text else {
+            return
+        }
+
+        guard let numberOfDays = numberOfDaysTextField.text else {
+            return
+        }
+
+        habit.name = name
+        habit.goal = Int(goal)!
+        habit.numberOfDays = Int(numberOfDays)!
+
+        // Get the default Realm
+        let realm = try? Realm()
+        // You only need to do this once (per thread)
+
+        // Add to the Realm inside a transaction
+        try? realm?.write {
+            realm?.add(habit)
+        }
+
         self.navigationController?.popViewController(animated: true)
     }
 
