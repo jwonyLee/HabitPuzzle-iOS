@@ -176,5 +176,13 @@ class HabitCreateViewController: UIViewController {
         habitTextField.snp.makeConstraints {
             $0.trailing.equalTo(habitInputStack.snp.trailingMargin).offset(-8)
         }
+        
+        goalTextField.snp.makeConstraints {
+            $0.trailing.equalTo(goalInputView.snp.trailingMargin).offset(-8)
+        }
+        
+        numberOfDaysTextField.snp.makeConstraints {
+            $0.trailing.equalTo(numberOfDaysInputView.snp.trailingMargin).offset(-8)
+        }
     }
 }
