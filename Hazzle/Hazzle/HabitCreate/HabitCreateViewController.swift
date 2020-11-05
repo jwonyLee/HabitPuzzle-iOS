@@ -140,7 +140,11 @@ class HabitCreateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // set delegate
         picker.delegate = self
+        habitTextField.delegate = self
+        goalTextField.delegate = self
+        numberOfDaysTextField.delegate = self
 
         // set navigation controller bar item
         setRightBarButton()
@@ -277,6 +281,13 @@ extension HabitCreateViewController: UIImagePickerControllerDelegate, UINavigati
         }
 
         dismiss(animated: true, completion: nil)
+    }
+}
+
+extension HabitCreateViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 }
 
