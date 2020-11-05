@@ -13,6 +13,7 @@ class HabitCreateViewController: UIViewController {
 
     // MARK: - Properties
     lazy var contentViewSize = CGSize(width: self.view.frame.width, height: self.view.frame.height)
+    var imagePath: String = ""
 
     // MARK: - Views
     lazy var containerView = UIView().then {
@@ -186,6 +187,7 @@ class HabitCreateViewController: UIViewController {
         habit.name = name
         habit.goal = Int(goal)!
         habit.numberOfDays = Int(numberOfDays)!
+        habit.photo = self.imagePath
 
         // Get the default Realm
         let realm = try? Realm()
@@ -209,9 +211,10 @@ class HabitCreateViewController: UIViewController {
         } else if !numberOfDaysTextField.hasText {
             showToast(message: "일주일 횟수를 입력해주세요.")
             return false
-        } else {
-            return true
-        }
+        } else if self.imagePath.isEmpty {
+            showToast(message: "사진을 추가해주세요.")
+            return false
+        } else { return true }
     }
 
     private func addSubviews() {
@@ -267,7 +270,10 @@ extension HabitCreateViewController: UIImagePickerControllerDelegate, UINavigati
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             puzzleImageView.image = image
-            print(info)
+        }
+
+        if let imagePath = info[UIImagePickerController.InfoKey.imageURL] as? NSURL {
+            self.imagePath = imagePath.absoluteString ?? ""
         }
 
         dismiss(animated: true, completion: nil)
