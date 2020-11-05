@@ -140,6 +140,9 @@ class HabitCreateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // set navigation title
+        self.navigationItem.title = "새로운 습관"
+
         // set delegate
         picker.delegate = self
         habitTextField.delegate = self
